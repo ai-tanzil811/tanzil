@@ -18,7 +18,7 @@ class pattern {
             for (col = 1; col <= row; col++) {
                 System.out.print(col);
             }
-            for (col = 1; col <= row-1; col++) {
+            for (col = row - 1 ; col >= 1 ; col--) {
                 System.out.print(col);
             }
             System.out.println();
